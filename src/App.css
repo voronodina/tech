@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.imgmenu {
+  height: 700px;
+}
+
+.cards {
+  border: solid 1px teal;
+  background: paleturquoise;
+  display: grid;
+  grid-template-areas: 'BorderExample BorderExample BorderExample BorderExample BorderExample';
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.blokinfo {
+  display: grid;
+  grid-template-areas: 'div div';
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.imegm {
+  height: 500px;
+}
+.card div {
+ padding-bottom: 20px;
+}
+.cardtec {
+  display: grid;
+  grid-template-areas: 'Card Card Card ';
+  justify-content: center;
+  align-items: center;
+}
+.cardtec div {
+  margin: 10px;
+}
+.compon {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
